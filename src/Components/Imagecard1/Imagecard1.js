@@ -4,17 +4,17 @@ import "./Imagecard1.css";
 
 import img1 from "../../Images/img1.jpg"
 
-const Imagecard1 = () => {
+const Imagecard1 = (props) => {
 
     return(
       <div className ="card">
       <div className="Imagecard1">
-      <img src={img1}></img>
+      <img src={props.imgsrc}></img>
 
       </div>   
       <div className = "viewsContainer">
-          <p>views:1000</p>
-          <p>date:20-10-19</p>
+          <p>Views:{Math.round(Math.random()*2500)}</p>
+    <p>Date:{Math.round(Math.random()*25)}-oct-20</p>
       </div>
         
       </div>

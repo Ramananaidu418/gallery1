@@ -23,4 +23,11 @@
 .latest-photos{
     padding: 0px 12px;
     font-weight: 500;
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+
+}
+.latest-photos p{
+    padding-top: 20px;
 }
